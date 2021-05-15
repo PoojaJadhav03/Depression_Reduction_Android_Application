@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="1000dp"
+    tools:context=".QuestionActivity">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="284dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/qsmark" />
+
+
+    <ScrollView
+        android:layout_width="399dp"
+        android:layout_height="496dp"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="800dp"
+                android:layout_below="@+id/imageView8"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="clip_horizontal|center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="411dp"
+                        android:layout_height="match_parent"
+                        android:text="  Do you often feel sad or empty?" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/oneyes"
+                            android:layout_width="157dp"
+                            android:layout_height="21dp"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/oneno"
+                            android:layout_width="72dp"
+                            android:layout_height="wrap_content"
+                            android:text="No" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Do you have an irritable mood most of the time?" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/twoyes"
+                            android:layout_width="162dp"
+                            android:layout_height="match_parent"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/twono"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="No" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Do you feel diminished interest or pleasure for everyday activities?" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/threeyes"
+                            android:layout_width="157dp"
+                            android:layout_height="21dp"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/threeno"
+                            android:layout_width="72dp"
+                            android:layout_height="wrap_content"
+                            android:text="No" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/fourtext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Did you lose or gain a significant weight lately?" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/fouryes"
+                            android:layout_width="157dp"
+                            android:layout_height="21dp"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/foureno"
+                            android:layout_width="72dp"
+                            android:layout_height="wrap_content"
+                            android:text="No" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/fivetext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Do you have insomnia or hypersomnia?" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/fiveyes"
+                            android:layout_width="157dp"
+                            android:layout_height="21dp"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/fiveeno"
+                            android:layout_width="72dp"
+                            android:layout_height="wrap_content"
+                            android:text="No" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/sixtext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Do you feel fatigue or loss of energy?" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/sixyes"
+                            android:layout_width="157dp"
+                            android:layout_height="21dp"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/sixeno"
+                            android:layout_width="72dp"
+                            android:layout_height="wrap_content"
+                            android:text="No" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/seventext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Do you have insomnia or hypersomnia?" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/sevenyes"
+                            android:layout_width="157dp"
+                            android:layout_height="21dp"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/sevenno"
+                            android:layout_width="72dp"
+                            android:layout_height="wrap_content"
+                            android:text="No" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/eighttext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Do you have insomnia or hypersomnia?" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/eightyes"
+                            android:layout_width="157dp"
+                            android:layout_height="21dp"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/eightno"
+                            android:layout_width="72dp"
+                            android:layout_height="wrap_content"
+                            android:text="No" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/ninetext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Do you have insomnia or hypersomnia?" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/nineyes"
+                            android:layout_width="157dp"
+                            android:layout_height="21dp"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/nineeno"
+                            android:layout_width="72dp"
+                            android:layout_height="wrap_content"
+                            android:text="No" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/tentext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Do you have insomnia or hypersomnia?" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/tenyes"
+                            android:layout_width="157dp"
+                            android:layout_height="21dp"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/teneno"
+                            android:layout_width="72dp"
+                            android:layout_height="wrap_content"
+                            android:text="No" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/Orange"
+                            android:gravity="center"
+                            android:text="Result"
+                            android:textColor="@android:color/white"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

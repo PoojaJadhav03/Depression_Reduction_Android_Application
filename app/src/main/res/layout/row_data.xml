@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AntiqueWhite">
+
+    <RadioGroup
+        android:layout_width="8dp"
+        android:layout_height="6dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="140dp"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:id="@+id/gridviewdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/AntiqueWhite">
+
+        <ImageView
+            android:id="@+id/images1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/qsmark" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

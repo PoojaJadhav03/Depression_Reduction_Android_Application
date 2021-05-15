@@ -1,0 +1,27 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/add_phone_contacts_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Phone Contact"/>
+
+    <Button
+        android:id="@+id/read_phone_contacts_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read Phone Contact"/>
+
+    <ListView
+        android:id="@+id/display_phone_ocntacts_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black">
+
+
+    </ListView>
+
+</LinearLayout>

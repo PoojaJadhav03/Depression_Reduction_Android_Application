@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "627346187788",
+    "firebase_url": "https://uworthy-6fd8e.firebaseio.com",
+    "project_id": "uworthy-6fd8e",
+    "storage_bucket": "uworthy-6fd8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627346187788:android:4c4f3edbcd14a62f",
+        "android_client_info": {
+          "package_name": "com.example.uworthy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627346187788-9dnvdjm82cu1ss8oakp36n0hj5auqbs6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8UO3Ka-FTwboPwco74sPUfW-2HcIf7x8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

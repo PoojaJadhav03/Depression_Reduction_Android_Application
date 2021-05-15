@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <GridView
+        android:id="@+id/gvemoji"
+        android:layout_width="337dp"
+        android:layout_height="359dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="157dp"
+        android:listSelector="@color/AntiqueWhite"
+        android:numColumns="3" />
+
+    <ImageView
+        android:id="@+id/imageemoji"
+        android:layout_width="117dp"
+        android:layout_height="112dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="33dp"
+        app:srcCompat="@drawable/qsmark" />
+
+    <TextView
+        android:id="@+id/textemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="88dp"
+        android:text="Choose  a  colour"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonemoji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginLeft="129dp"
+        android:layout_marginBottom="19dp"
+        android:background="@color/Orange"
+        android:text="Next"
+        android:textColor="@android:color/white" />
+</RelativeLayout>
