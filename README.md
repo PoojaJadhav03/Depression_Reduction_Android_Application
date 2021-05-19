@@ -12,7 +12,7 @@
 
 In this section, we are going to provide a brief introduction of “#uWorthy (Depression Reduction Application)”. This application combines features of all the above applications with some additional features. #uWorthy acts as a supportive hand against depression. It aims to teach its users how to recognize the signs that someone close to them maybe in desolation, and how to reach out to them proactively. This application keeps you connected with your core network, asking you to choose three close contacts, such as friends, family etc. An app that controls suicide attempts to some extent by healing him/her from depression. This application would provide a way to measure depression using color themes, emojies, thinking pattern, questionnaires etc. Also, videos and music for healing would be provided at admin level.  The patient could continue his/her further treatment with desired counselor if he/she wishes to. After connecting to the counselor, counselor could provide daily exercises and Psychic therapy to the patient and also communicate using Chatbot. Regular exercise will be helpful for victim to relief the stress level Also counselor can monitor the daily mental state of patient using Chatbot feature or a mood diary. A timeline consisting of motivational stories, quotes will benefit a lot to the patient. Level of healing could be understood on the basis of Chatbot and mood diary.  Facility of contact with the 3 closer ones when the patient is in extreme depression will be provided to the counselor. 
 
-# How To Run A APP
+# How To Run APP
 1. Install all the files except Readme and Uworthy_output
 2. Import That folder in Android studio .
 3. Make sure you have install git in yor system .
