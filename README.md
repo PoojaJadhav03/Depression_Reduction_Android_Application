@@ -8,11 +8,8 @@
 
 ||||||
 |:----------------------------------------:|:-----------------------------------------:|:-----------------------------------------:|:-----------------------------------------:|:-----------------------------------------: |
-|![Uworthy_APP_ (1)](https://user-images.githubusercontent.com/84228181/120880932-4345cb80-c582-11eb-9927-40e2a5609847.png)|
-
-
-
-
+|![Uworthy_APP_ (1)](https://user-images.githubusercontent.com/84228181/120880932-4345cb80-c582-11eb-9927-40e2a5609847.png)|![Uworthy_APP_ (2)](https://user-images.githubusercontent.com/84228181/120880975-8e5fde80-c582-11eb-80af-7eee6686d132.png)|![Uworthy_APP_ (3)](https://user-images.githubusercontent.com/84228181/120880981-9e77be00-c582-11eb-8d17-d6e2197f7111.png)|![Uworthy_APP_ (5)](https://user-images.githubusercontent.com/84228181/120881004-ce26c600-c582-11eb-9e29-2f70a06dbb7f.png)|![Uworthy_APP_ (6)](https://user-images.githubusercontent.com/84228181/120881017-e696e080-c582-11eb-9727-ed6302f16339.png)|
+![Uworthy_APP_ (7)](https://user-images.githubusercontent.com/84228181/120881025-fe6e6480-c582-11eb-81ec-67db6f78cb31.png)|![Uworthy_APP_ (10)](https://user-images.githubusercontent.com/84228181/120881069-586f2a00-c583-11eb-8afe-42ac819526fc.png)|![Uworthy_APP_ (11)](https://user-images.githubusercontent.com/84228181/120881079-6a50cd00-c583-11eb-85d5-f1ce51bbdfe0.png)|![Uworthy_APP_ (12)](https://user-images.githubusercontent.com/84228181/120881093-7c327000-c583-11eb-956d-e066e4efea44.png)|![Uworthy_APP_ (13)](https://user-images.githubusercontent.com/84228181/120881100-8ce2e600-c583-11eb-9d41-5c2db2454a9b.png)|![Uworthy_APP_ (16)](https://user-images.githubusercontent.com/84228181/120881123-cfa4be00-c583-11eb-9a2e-04a469f92814.png)|![Uworthy_APP_ (17)](https://user-images.githubusercontent.com/84228181/120881158-25796600-c584-11eb-9261-76f3ecd1390b.png)|![Uworthy_APP_ (18)](https://user-images.githubusercontent.com/84228181/120881170-34601880-c584-11eb-925a-85188ddfb869.png)|![Uworthy_APP_ (19)](https://user-images.githubusercontent.com/84228181/120881179-480b7f00-c584-11eb-9936-126e9edc0aef.png|
 
 
 # How To Run APP
